@@ -4,12 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "redocly preview-docs swagger.json"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@redocly/cli": "^1.0.0-beta.102",
     "express": "^4.18.1",
     "swagger-ui-express": "^4.4.0"
   }
