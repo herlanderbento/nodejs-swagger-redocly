@@ -1,0 +1,33 @@
+{
+    "info": {
+        "title": "Caddastro de teste",
+        "license": {
+            "name": "CrediPronto",
+            "url": "http://localhost:3000"
+        },
+        "version": "1.0.0",
+        "description": "Api de teste"
+    },
+    "openapi": "3.0.0",
+    "servers": [
+        {
+            "url": "api-proposta.dev.credipronto.com.br"
+        }
+    ],
+    "paths": {
+        "/users": {
+            "get": {
+                "summary": "Busca de ",
+                "operationId": "getUserById",
+                "responses": {
+                    "200": {
+                        "description": "Sucesso"
+                    },
+                    "400": {
+                        "description": "Not found"
+                    }
+                }
+            }
+        }
+    }
+}
