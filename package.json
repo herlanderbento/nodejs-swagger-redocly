@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "redocly preview-docs -p 80 swagger.json"
+    "start": "redocly preview-docs -h 0.0.0.0 -p 80 swagger.json"
   },
   "keywords": [],
   "author": "",
